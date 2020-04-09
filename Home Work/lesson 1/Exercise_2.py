@@ -4,7 +4,7 @@ while True:
 
     user_sec = input('Напишите сколько секунд вы хотите перевести в формат чч:мм:сс :\n')
 
-    if user_sec == 'выход':break
+    if user_sec.lower() == 'выход':break
 
     if user_sec.isdigit():
 
