@@ -1,8 +1,3 @@
-# Для списка реализовать обмен значений соседних элементов, т.е. Значениями
-# обмениваются элементы с индексами 0 и 1, 2 и 3 и т.д. При нечетном количестве
-# элементов последний сохранить на своем месте. Для заполнения списка элементов
-# необходимо использовать функцию input().
-
 my_list = []
 
 
@@ -32,12 +27,11 @@ print(my_list)
 
 
 i = 0
-while ask_number_of_element != i:
-    if i > len(my_list):
+for step in range(0,ask_number_of_element,2):
+    if step == ( ask_number_of_element - 1 ):
         break
     else:
-        my_list[i],my_list[i+1] = my_list[i+1],my_list[i]
-        i += 2
+        my_list[step], my_list[step+1] = my_list[step+1], my_list[step]
 
 
 
