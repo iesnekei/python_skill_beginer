@@ -8,10 +8,10 @@ while True:
             print('Please input number from 1 to 12')
             continue
 
-list_of_winter = [1,2,3]
-list_of_spring = [4,5,6]
-list_of_summer = [7,8,9]
-list_of_autumn = [10,11,12]
+list_of_winter = [12,1,2]
+list_of_spring = [3,4,5]
+list_of_summer = [6,7,8]
+list_of_autumn = [9,10,11]
 
 if user_choose_month in list_of_winter:
     print('List method say : You chose winter month')
@@ -24,10 +24,10 @@ else:
 
 
 time_of_year = {
-                'list_of_winter':[1,2,3],
-                'list_of_spring':[4,5,6],
-                'list_of_summer':[7,8,9],
-                'list_of_autumn':[10,11,12]
+                'list_of_winter':[12,1,2],
+                'list_of_spring':[3,4,5],
+                'list_of_summer':[6,7,8],
+                'list_of_autumn':[9,10,11]
                 }
 
 
