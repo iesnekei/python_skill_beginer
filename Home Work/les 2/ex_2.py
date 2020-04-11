@@ -27,10 +27,7 @@ print(my_list)
 
 
 i = 0
-for step in range(0,ask_number_of_element,2):
-    if step == ( ask_number_of_element - 1 ):
-        break
-    else:
+for step in range(0,ask_number_of_element-1,2):
         my_list[step], my_list[step+1] = my_list[step+1], my_list[step]
 
 
