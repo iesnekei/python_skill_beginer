@@ -20,21 +20,16 @@ while True:
         print(products_list)
 
 
-all_products = []
-all_prices = []
-all_amount = []
-all_unit = []
+analitycs = {}
 
-for i in range(0,len(products_list)):
-    all_products.append(products_list[i][1]['name'])
-for i in range(0,len(products_list)):
-    all_prices.append(products_list[i][1]['price'])
-for i in range(0,len(products_list)):
-    all_amount.append(products_list[i][1]['amount'])
-for i in range(0,len(products_list)):
-    all_unit.append(products_list[i][1]['unit'])
+for key in product[1]:
+    analitycs[key] = []
 
-print(f'name : {all_products}')
-print(f'price : {all_prices}')
-print(f'amount : {all_amount}')
-print(f'unit : {all_unit}')
+for i in range(len(products_list)):
+    analitycs['name'].append(products_list[i][1]['name'])
+    analitycs['price'].append(products_list[i][1]['price'])
+    analitycs['amount'].append(products_list[i][1]['amount'])
+    if products_list[i][1]['unit'] not in analitycs['unit']:
+        analitycs['unit'].append(products_list[i][1]['unit'])
+
+print(analitycs)
