@@ -5,8 +5,7 @@ while True:
     if ask_new_element.isdigit():
         ask_new_element = int(ask_new_element)
         my_list.append(ask_new_element)
-        my_list.sort()
-        my_list.reverse()
+        my_list.sort(reverse = True)
         print(my_list)
         break
     else:
