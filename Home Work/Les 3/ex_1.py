@@ -9,24 +9,27 @@ def isfloat(Value):
 def division():
     ask_numerator = input('Input number for division:... ')
 
-    if ask_numerator.isdigit():
-        ask_numerator = int(ask_numerator)
+    try:
+        if ask_numerator.isdigit():
+            ask_numerator = int(ask_numerator)
 
-    elif isfloat(ask_numerator):
-        ask_numerator = float(ask_numerator)
+        elif isfloat(ask_numerator):
+            ask_numerator = float(ask_numerator)
 
-    else:
+    except ValueError:
         print('Input a number!')
+
 
     ask_denominator = input('Input number for division by it:... ')
 
-    if ask_denominator.isdigit():
-        ask_denominator = int(ask_denominator)
+    try:
+        if ask_denominator.isdigit():
+            ask_denominator = int(ask_denominator)
 
-    elif isfloat(ask_denominator):
-        ask_denominator = float(ask_denominator)
+        elif isfloat(ask_denominator):
+            ask_denominator = float(ask_denominator)
 
-    else:
+    except ValueError:
         print('Input a number!')
 
     try:
@@ -35,6 +38,9 @@ def division():
 
     except ZeroDivisionError:
         print("Don't division by zero!")
+
+    except TypeError:
+        print("Don't division words")
 
 
 print(division())
