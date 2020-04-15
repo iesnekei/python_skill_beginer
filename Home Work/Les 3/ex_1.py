@@ -1,31 +1,32 @@
-def division():
+def division(a,b):
     '''
     :param a: divident
     :param b: divisor
     :return:
     '''
+    try:
+        print(a / b)
+
+    except ZeroDivisionError:
+        print("Don't division by zero! B couldn't be 0 !")
+
+
+while True:
+    a = input('Input number a :... ')
+    try:
+        a = int(a)
+    except ValueError:
+        print('A must be a number!')
+        continue
 
     while True:
-        a = input('Input a number a :... ')
-        if a.isdigit():
-            a = int(a)
-        else:
-            print('A is not a number , please try again and input a number')
-            continue
-
-        b = input('Input a number b :... ')
-        if b.isdigit():
-            b = int(b)
-        else:
-            print('B is not a number , please try again and input a number')
-            continue
-
+        b = input('Input number b :... ')
         try:
-            print(a / b)
+            b = int(b)
             break
-        except ZeroDivisionError:
-            print("Don't division by zero! B couldn't be 0 !")
+        except ValueError:
+            print('B must be a number!')
             continue
+    break
 
-
-division()
+division(a,b)
