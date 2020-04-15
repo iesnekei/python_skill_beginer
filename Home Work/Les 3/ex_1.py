@@ -1,46 +1,31 @@
-def isfloat(Value):
-    try:
-        float(Value)
-        return True
-    except ValueError:
-        return False
-
-
 def division():
-    ask_numerator = input('Input number for division:... ')
+    '''
+    :param a: divident
+    :param b: divisor
+    :return:
+    '''
 
-    try:
-        if ask_numerator.isdigit():
-            ask_numerator = int(ask_numerator)
+    while True:
+        a = input('Input a number a :... ')
+        if a.isdigit():
+            a = int(a)
+        else:
+            print('A is not a number , please try again and input a number')
+            continue
 
-        elif isfloat(ask_numerator):
-            ask_numerator = float(ask_numerator)
+        b = input('Input a number b :... ')
+        if b.isdigit():
+            b = int(b)
+        else:
+            print('B is not a number , please try again and input a number')
+            continue
 
-    except ValueError:
-        print('Input a number!')
-
-
-    ask_denominator = input('Input number for division by it:... ')
-
-    try:
-        if ask_denominator.isdigit():
-            ask_denominator = int(ask_denominator)
-
-        elif isfloat(ask_denominator):
-            ask_denominator = float(ask_denominator)
-
-    except ValueError:
-        print('Input a number!')
-
-    try:
-        result = ask_numerator / ask_denominator
-        return result
-
-    except ZeroDivisionError:
-        print("Don't division by zero!")
-
-    except TypeError:
-        print("Don't division words")
+        try:
+            print(a / b)
+            break
+        except ZeroDivisionError:
+            print("Don't division by zero! B couldn't be 0 !")
+            continue
 
 
-print(division())
+division()
