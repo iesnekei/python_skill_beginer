@@ -1,0 +1,10 @@
+Smith 20000
+Silva 15000
+Conor 100000
+Porie 50000
+Kovington 70000
+Spivak 5000
+Blahovich 8000
+Jons 90000
+Stivens 19000
+Yan 15000
