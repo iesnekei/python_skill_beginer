@@ -9,3 +9,4 @@ with open('salary_of_worker.txt') as data_of_worker:
             print(f'{a[0]} has a salary under 20000 USD.')
     average_salary = all_salary_for_pay / len(employee_numb)
     print(f'\nAverage salary for employee is {average_salary}')
+
