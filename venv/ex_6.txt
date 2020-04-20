@@ -1,0 +1,3 @@
+python: 16(h) 8(hw) 1(ex)
+linux: 16(h) -- --
+html: 20(h) 10(hw) 1(ex)

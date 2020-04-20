@@ -1,0 +1,4 @@
+firm_1   ltd   10000   5000
+firm_2   ltd   30000   -40000
+firm_3   ltd   20000   5000
+firm_4   ltd   6666   5551
