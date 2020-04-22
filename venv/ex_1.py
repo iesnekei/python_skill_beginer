@@ -1,14 +1,18 @@
-out_f = open('my_file.txt','w')
+def write_in_file():
+    out_f = open('my_file.txt', 'w')
 
-a = (input('Please write what you want to add in file:.. '))
-b = (input('Please write what you want to add in file:.. '))
-c = (input('Please write what you want to add in file:.. '))
-d = (input('Please write what you want to add in file:.. '))
+    how_much_str_write = input('How many str do you want to write into file?')
 
-out_f.write(a+'\n')
-out_f.write(b+'\n')
-out_f.write(c+'\n')
-out_f.write(d+'\n')
+    try:
+        how_much_str_write = int(how_much_str_write)
 
-out_f.close()
+        for i in range(0,how_much_str_write):
+            info_to_write = input('Input what you want to write in file?')
+            out_f.write(info_to_write+'\n')
+    except ValueError:
+        print('Try again. Strings amount must be a number.')
 
+    out_f.close()
+
+if __name__ == '__main__':
+    write_in_file()
