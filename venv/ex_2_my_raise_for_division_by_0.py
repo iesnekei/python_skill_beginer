@@ -2,11 +2,15 @@ from time import sleep
 class MyDivisonByZeroError(Exception):
         print('Stop wait a minute, in parallel galaxy is absolute normal! But for result we will wait info a light year! \n Please be patient and wait!')
 
-try:
-    res = 100 / 0
 
-except ZeroDivisionError:
-    raise MyDivisonByZeroError
+i = 0
+try:
+    res = 100 / i
+    if i == 0:
+        raise MyDivisonByZeroError
+
+except MyDivisonByZeroError:
+    print('Ups, update you math skill!')
 
 finally:
     for i in range(5):

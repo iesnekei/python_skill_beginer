@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91478f78-d492-4a1e-96f2-693c7c7a9b5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/ex_2_my_raise_for_division_by_0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/ex_3_only_number_list_raise_err_if_add_something_else_in_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/ex_2_my_raise_for_division_by_0.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/ex_2_my_raise_for_division_by_0.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,27 +65,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/ex_1_data_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex_1_matrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_basic_08.04" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex_1_matrix.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,13 +136,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ex_3_only_number_list_raise_err_if_add_something_else_in_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_basic_08.04" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/ex_3_only_number_list_raise_err_if_add_something_else_in_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.ex_2_my_raise_for_division_by_0" />
+        <item itemvalue="Python.ex_3_only_number_list_raise_err_if_add_something_else_in_list" />
         <item itemvalue="Python.ex_1_data_process" />
         <item itemvalue="Python.ex_2" />
         <item itemvalue="Python.ex_3_cell_fission" />
-        <item itemvalue="Python.ex_1_matrix" />
       </list>
     </recent_temporary>
   </component>
@@ -408,12 +409,18 @@
       <option name="project" value="LOCAL" />
       <updated>1588393202596</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Lesson 8 ex 2 : Raise myself created error when division by zero and make program still work">
+      <created>1588397402011</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1588397402011</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ex_6: capitalize all words in user inputed string" />
     <MESSAGE value="simplify ex_1" />
     <MESSAGE value="add while for a and b in ex_1" />
     <MESSAGE value="simplify ex_2" />
@@ -438,7 +445,8 @@
     <MESSAGE value="ex_1_matrix" />
     <MESSAGE value="Lesson 7: Use @property @abstractmethod to create program for factory, create some matrix and change some operation method for class" />
     <MESSAGE value="Lesson 8 ex 1 : Convert date and validation date type" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 8 ex 1 : Convert date and validation date type" />
+    <MESSAGE value="Lesson 8 ex 2 : Raise myself created error when division by zero and make program still work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 8 ex 2 : Raise myself created error when division by zero and make program still work" />
   </component>
   <component name="WindowStateProjectService">
     <state x="378" y="145" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587335704775">
@@ -449,26 +457,26 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="347" y="23" key="#ex_2/0.23.1280.777@0.23.1280.777" timestamp="1588389557768" />
-    <state x="339" y="23" width="794" height="777" key="CommitChangelistDialog2" timestamp="1588393202106">
+    <state x="339" y="23" width="794" height="777" key="CommitChangelistDialog2" timestamp="1588397401327">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="339" y="23" width="794" height="777" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1588393202106" />
-    <state width="1258" height="184" key="GridCell.Tab.0.bottom" timestamp="1588397308483">
+    <state x="339" y="23" width="794" height="777" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1588397401327" />
+    <state width="1258" height="184" key="GridCell.Tab.0.bottom" timestamp="1588400230842">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1258" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1588397308483" />
-    <state width="1258" height="184" key="GridCell.Tab.0.center" timestamp="1588397308482">
+    <state width="1258" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1588400230842" />
+    <state width="1258" height="184" key="GridCell.Tab.0.center" timestamp="1588400230841">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1258" height="184" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1588397308482" />
-    <state width="1258" height="184" key="GridCell.Tab.0.left" timestamp="1588397308482">
+    <state width="1258" height="184" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1588400230841" />
+    <state width="1258" height="184" key="GridCell.Tab.0.left" timestamp="1588400230840">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1258" height="184" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1588397308482" />
-    <state width="1258" height="184" key="GridCell.Tab.0.right" timestamp="1588397308483">
+    <state width="1258" height="184" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1588400230840" />
+    <state width="1258" height="184" key="GridCell.Tab.0.right" timestamp="1588400230841">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1258" height="184" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1588397308483" />
+    <state width="1258" height="184" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1588400230841" />
     <state width="1258" height="229" key="GridCell.Tab.1.bottom" timestamp="1588250163395">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
