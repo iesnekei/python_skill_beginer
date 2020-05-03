@@ -8,7 +8,7 @@ if __name__ == '__main__':
     list = []
 
     while True:
-        a = input('Input a number.')
+        a = input('For exit press exit. Else press a number:  ')
         if a.lower() == 'exit':
             break
         try:
@@ -19,6 +19,7 @@ if __name__ == '__main__':
         else:
             a = int(a)
             list.append(a)
+    print(list)
 
 
 

@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91478f78-d492-4a1e-96f2-693c7c7a9b5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/ex_3_only_number_list_raise_err_if_add_something_else_in_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/ex_4_office_staff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/ex_7_complex_numb.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/ex_2_my_raise_for_division_by_0.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/ex_2_my_raise_for_division_by_0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/ex_3_only_number_list_raise_err_if_add_something_else_in_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/ex_3_only_number_list_raise_err_if_add_something_else_in_list.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,27 +75,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_basic_08.04" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="ex_2_my_raise_for_division_by_0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_basic_08.04" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,27 +88,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/ex_2_my_raise_for_division_by_0.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex_3_cell_fission" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_basic_08.04" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex_3_cell_fission.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,13 +117,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ex_4_office_staff" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_basic_08.04" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/ex_4_office_staff.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex_7_complex_numb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_basic_08.04" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/ex_7_complex_numb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.ex_2_my_raise_for_division_by_0" />
         <item itemvalue="Python.ex_3_only_number_list_raise_err_if_add_something_else_in_list" />
+        <item itemvalue="Python.ex_4_office_staff" />
+        <item itemvalue="Python.ex_7_complex_numb" />
         <item itemvalue="Python.ex_1_data_process" />
-        <item itemvalue="Python.ex_2" />
-        <item itemvalue="Python.ex_3_cell_fission" />
       </list>
     </recent_temporary>
   </component>
@@ -416,12 +418,18 @@
       <option name="project" value="LOCAL" />
       <updated>1588397402011</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Lesson 8 ex 3 : Raise error if el in list is not a numb">
+      <created>1588401908684</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1588401908684</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="simplify ex_1" />
     <MESSAGE value="add while for a and b in ex_1" />
     <MESSAGE value="simplify ex_2" />
     <MESSAGE value="simplify ex_3" />
@@ -446,7 +454,8 @@
     <MESSAGE value="Lesson 7: Use @property @abstractmethod to create program for factory, create some matrix and change some operation method for class" />
     <MESSAGE value="Lesson 8 ex 1 : Convert date and validation date type" />
     <MESSAGE value="Lesson 8 ex 2 : Raise myself created error when division by zero and make program still work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 8 ex 2 : Raise myself created error when division by zero and make program still work" />
+    <MESSAGE value="Lesson 8 ex 3 : Raise error if el in list is not a numb" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 8 ex 3 : Raise error if el in list is not a numb" />
   </component>
   <component name="WindowStateProjectService">
     <state x="378" y="145" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587335704775">
@@ -457,26 +466,26 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="347" y="23" key="#ex_2/0.23.1280.777@0.23.1280.777" timestamp="1588389557768" />
-    <state x="339" y="23" width="794" height="777" key="CommitChangelistDialog2" timestamp="1588397401327">
+    <state x="264" y="23" width="794" height="777" key="CommitChangelistDialog2" timestamp="1588401908244">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="339" y="23" width="794" height="777" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1588397401327" />
-    <state width="1258" height="184" key="GridCell.Tab.0.bottom" timestamp="1588400230842">
+    <state x="264" y="23" width="794" height="777" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1588401908244" />
+    <state width="1258" height="184" key="GridCell.Tab.0.bottom" timestamp="1588507018171">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1258" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1588400230842" />
-    <state width="1258" height="184" key="GridCell.Tab.0.center" timestamp="1588400230841">
+    <state width="1258" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1588507018171" />
+    <state width="1258" height="184" key="GridCell.Tab.0.center" timestamp="1588507018170">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1258" height="184" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1588400230841" />
-    <state width="1258" height="184" key="GridCell.Tab.0.left" timestamp="1588400230840">
+    <state width="1258" height="184" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1588507018170" />
+    <state width="1258" height="184" key="GridCell.Tab.0.left" timestamp="1588507018169">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1258" height="184" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1588400230840" />
-    <state width="1258" height="184" key="GridCell.Tab.0.right" timestamp="1588400230841">
+    <state width="1258" height="184" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1588507018169" />
+    <state width="1258" height="184" key="GridCell.Tab.0.right" timestamp="1588507018170">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1258" height="184" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1588400230841" />
+    <state width="1258" height="184" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1588507018170" />
     <state width="1258" height="229" key="GridCell.Tab.1.bottom" timestamp="1588250163395">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -501,10 +510,10 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="240" y="131" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1588250155211" />
-    <state x="317" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1588389386032">
+    <state x="317" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1588502804596">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="317" y="224" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1588389386032" />
+    <state x="317" y="224" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1588502804596" />
     <state x="424" y="315" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586919196827">
       <screen x="0" y="23" width="1280" height="777" />
     </state>

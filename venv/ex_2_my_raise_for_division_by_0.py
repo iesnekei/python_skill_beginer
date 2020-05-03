@@ -5,12 +5,14 @@ class MyDivisonByZeroError(Exception):
 
 i = 0
 try:
-    res = 100 / i
+
     if i == 0:
         raise MyDivisonByZeroError
 
 except MyDivisonByZeroError:
     print('Ups, update you math skill!')
+else:
+    res = 100 / i
 
 finally:
     for i in range(5):
